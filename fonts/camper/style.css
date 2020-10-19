@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Camper';
+    src: local('Camper Print Script1'), local('Camper-Print-Script1'),
+        url('CamperPrintScript1.woff2') format('woff2'),
+        url('CamperPrintScript1.woff') format('woff'),
+        url('CamperPrintScript1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
