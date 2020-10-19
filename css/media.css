@@ -1,0 +1,228 @@
+@media (max-width: 1240px) {
+  .container {
+    width: 968px;
+  }
+  .main-title {
+    margin-top: 40px;
+  }
+  .main-title::before {
+    right: 50%;
+    top: -70px;
+    transform: translateX(50%);
+  }
+  .main-bg,
+  .main-wrapper__bg {
+    display: none;
+  }
+  .main-text-bottom {
+    right: 550px;
+  }
+  .main-text__item {
+    width: 50%;
+    font-size: 26px;
+  }
+  .program-block {
+    width: 90%;
+  }
+  .program-title-wrapper {
+    padding-top: 130px;
+  }
+  .program-title-data {
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .blue-wrapper__title,
+  .speker-title,
+  .main-title {
+    font-size: 30px;
+  }
+  .main-title::before {
+    width: 200px;
+  }
+  .main-block {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .timer-wrapper {
+    position: static;
+    transform: translateY(0);
+    box-shadow: none;
+    margin: 0 auto;
+  }
+  .main-text__item {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .main-text-bottom {
+    position: static;
+  }
+  .main-block-text__bottom {
+    position: static;
+    text-align: center;
+    transform: translate(0, 0);
+  }
+  .main-text-bottom {
+    width: 440px;
+    margin: 0 auto;
+  }
+  .statistics-list__item:nth-child(3) {
+    left: 25%;
+  }
+  .program-title {
+    font-size: 24px;
+  }
+  .spekers-list__item {
+    position: static;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .spekers-list__item > .statistic-bg {
+    display: none;
+  }
+  .speker-text {
+    left: 50%;
+  }
+  .speker-title {
+    margin-bottom: 60px;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-list li {
+    text-align: center;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+  .main-contact,
+  .nav,
+  br {
+    display: none;
+  }
+  .logo {
+    position: static;
+    transform: translateY(0);
+  }
+  .main-text-bottom,
+  .main-block {
+    width: 100%;
+  }
+  .main-text-bottom__top,
+  .main-text-bottom__bottom {
+    font-size: 26px;
+  }
+  .main-block-text__bottom {
+    white-space: normal;
+  }
+  .statistics-text,
+  .statistics-title {
+    font-size: 26px;
+  } 
+  .statistics-img {
+    position: static;
+    width: 100%;
+    transform: translateX(0);
+    margin-bottom: 20px;
+  }
+  .statistics-img img {
+    display: block;
+    width: 100%;
+  }
+  .statistics-list__item:nth-child(1),
+  .statistics-list__item:nth-child(2),
+  .statistics-list__item:nth-child(3),
+  .statistics-list__item:nth-child(4),
+  .statistics-list__item:nth-child(5),
+  .statistics-list__item:nth-child(6) {
+    position: static;
+  }
+  .statistics-list__item {
+    margin-bottom: 30px;
+  }
+  .statistics-list__item > .statistic-bg {
+    opacity: 0.3;
+  }
+  .statistics-list__title {
+    font-size: 30px;
+  }
+  .blue-wrapper__title {
+    font-size: 24px;
+  }
+  .first-block {
+    flex-direction: column;
+  }
+  .first-block__img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .first-block__content {
+    border-radius: 10px;
+  }
+  .first-block__content::before {
+    top: -20px;
+    left: 15px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid  #fffffd;
+    border-top: none;
+  }
+  .program-title {
+    text-align: center;
+    font-size: 22px;
+  }
+  .program-list li {
+    width: 100%;
+    padding: 20px 20px 20px 50px;
+  }
+  .program-list__second::before {
+    width: 60px;
+    height: 60px;
+  }
+  .program-block {
+    margin-bottom: 60px;
+  }
+  .speker-block__img {
+    width: 90%;
+  }
+  .speker-text {
+    text-align: center;
+    position: static;
+  }
+  .speker-text > .statistic-bg-green::before {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.4;
+  }
+
+}
+@media (max-width: 380px) {
+  .speker-title,
+  .main-title {
+    font-size: 26px;
+  }
+  .main-text__item {
+    font-size: 20px;
+  }
+  .main-block {
+    padding: 30px;
+  }
+}
+@media (max-width: 330px) {
+  .first-block__content::after {
+    right: 0;
+  }
+}

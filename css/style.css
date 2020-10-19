@@ -593,3 +593,120 @@ ul {
 .program-block__btn:hover {
   transform: scale(1.1);
 }
+.speker {
+  position: relative;
+  padding: 60px 0 100px 0;
+}
+.speker-title {
+  font-family: "intro";
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+.speker-block {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.speker-block__title {
+  text-align: center;
+  font-family: "Camper";
+  font-size: 40px;
+  font-weight: 500;
+}
+.speker-block__img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.spekers-list__item {
+  position: absolute;
+  width: 320px;
+}
+.spekers-list__item > .statistic-bg {
+  opacity: 0.7;
+}
+.spekers-list__item > .statistic-bg-fiolet::before {
+  top: -80px;
+  left: -30px;
+  transform: rotate(-20deg);
+  background-size: cover;
+}
+.speker-text p,
+.pekers-list__text {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  z-index: 5;
+}
+.spekers-list__item span {
+  font-weight: 900;
+}
+.spekers-list__item:nth-child(1) {
+  left: 130px;
+  top: 200px;
+}
+.spekers-list__item:nth-child(2) {
+  top: 420px;
+}
+.spekers-list__item:nth-child(3) {
+  top: 180px;
+  right: 60px;
+}
+.spekers-list__item:nth-child(4) {
+  bottom: 30px;
+  left: 50%;
+}
+.speker-text {
+  position: absolute;
+  top: 380px;
+  left: 55%;
+}
+.speker-text > .statistic-bg-green::before {
+  top: -90px;
+  left: -60px;
+  transform: rotate(10deg);
+}
+.speker-btn {
+  display: block;
+  color: #fffffd;
+  font-weight: bold;
+  background-color: #3b5999;
+  border-radius: 20px;
+  padding: 14px 0;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  box-shadow: 16px 28px 81px 0px rgba(83, 127, 200, 0.75);
+  transition: all 0.3s;
+}
+.speker-btn:hover {
+  transform: scale(1.1);;
+}
+/* footer */
+.footer {
+  margin-bottom: 80px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-list li {
+  margin-bottom: 40px;
+  padding: 0 40px;
+}
+.footer-text,
+.footer-list__link {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #969696;
+  line-height: 2.4;
+}
+.footer-text a {
+  font-weight: 600;
+  color: #3b5999;
+}
+
