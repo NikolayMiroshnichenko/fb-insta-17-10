@@ -107,6 +107,9 @@
   .container {
     width: 90%;
   }
+  .main-wrapper {
+    margin-bottom: 80px;
+  }
   .main-contact,
   .nav,
   br {
@@ -115,6 +118,27 @@
   .logo {
     position: static;
     transform: translateY(0);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-contact__date {
+    margin: 0;
+    padding: 8px 18px;
+    background-color: #415e9c;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .header-contact__time {
+    color: #415e9c;
+    text-align: center;
+    padding-top: 6px;
+  }
+  .header-contact {
+    display: block;
   }
   .main-text-bottom,
   .main-block {

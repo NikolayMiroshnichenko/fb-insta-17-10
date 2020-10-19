@@ -15,16 +15,20 @@
       <nav class="nav">
         <ul class="nav-list">
           <li>
-            <a href="#">О Занятиях</a>
+            <a href="#statistics" class="anchors">О Занятиях</a>
           </li>
           <li>
-            <a href="#">О Спикере</a>
+            <a href="#speker" class="anchors">О Спикере</a>
           </li>
           <li>
-            <a href="#">Программа</a>
+            <a href="#program" class="anchors">Программа</a>
           </li>
         </ul>
       </nav>
+      <div class="header-contact">
+        <div class="header-contact__date">29-30 Сентября</div>
+        <div class="header-contact__time">20:00 Киев / Мск</div>
+      </div>
     </header>
     <section class="main-wrapper">
       <section class="main container">
@@ -44,7 +48,7 @@
             <span>которые будут обречены на успех</span>
           </p>
         </div>
-        <div class="main-block">
+        <div class="main-block" id="main-block">
           <h2 class="main-block__title">Для принятия участия</h2>
           <p class="main-block__text">
             Выберите подходящий мессенджер <br />
@@ -175,7 +179,7 @@
           </div>
         </div>
       </div>
-      <div class="program container">
+      <div class="program container" id="program">
         <h2 class="blue-wrapper__title">
           ЧТО ВЫ УЗНАЕТЕ <br />
           НА ОТКРЫТЫХ ОНЛАЙН УРОКАХ
@@ -251,10 +255,12 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="program-block__btn">Принять участие</a>
+        <a href="#main-block" class="program-block__btn anchors"
+          >Принять участие</a
+        >
       </div>
     </section>
-    <section class="speker container">
+    <section class="speker container" id="speker">
       <h2 class="speker-title">КТО ВЕДЕТ ОТКРЫТЫЕ ОНЛАЙН УРОКИ</h2>
       <div class="speker-block">
         <h3 class="speker-block__title">Корнеев Владислав</h3>
@@ -302,9 +308,8 @@
           </li>
         </ul>
       </div>
-      <a href="#" class="speker-btn">Принять участие</a>
+      <a href="#main-block" class="speker-btn anchors">Принять участие</a>
     </section>
-
     <footer class="footer container">
       <ul class="footer-list">
         <li>
@@ -319,11 +324,13 @@
       </ul>
       <p class="footer-text">
         © Корнеев Владислав & ProTargeting. Все права защищены. Любое
-        копирование материалов разрешено только с согласия правообладателей.<br> По
-        всем вопросам обращайтесь:
+        копирование материалов разрешено только с согласия правообладателей.<br />
+        По всем вопросам обращайтесь:
         <a href="mailto:info@protargeting.team">info@protargeting.team</a>
       </p>
     </footer>
+
     <script src="js/timer.js"></script>
+    <script src="js/anchors.js"></script>
   </body>
 </html>
